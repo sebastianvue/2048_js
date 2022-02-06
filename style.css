@@ -1,0 +1,22 @@
+#grid {
+  position: absolute;
+  right: 40%;
+  left:  40%;
+  top: 30%;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: repeat(4, 1fr); */
+  /* width: 400px;
+  height: 400px; */
+  background-color: red;
+}
+
+#grid div {
+  /* width: 100px;
+  height: 100px; */
+  background-color: yellow;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+}
